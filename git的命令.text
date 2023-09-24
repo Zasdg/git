@@ -23,3 +23,7 @@ git switch 分支名 切换分支
 git switch -c 分支名  创建并切换分支
 git merge 分支名 快速合并分支·
 git rebase 分支名 变基
+远程仓库(remote)
+git remote add 库名 url 将库传到服务器
+git push -u origin main 将代码传到服务器
+git branch -M mian 将分支的名字改成main
