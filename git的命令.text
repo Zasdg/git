@@ -15,3 +15,9 @@ git commit -a -m "" 提交所有已修改的文件(要已跟踪)
 git restore 文件路径 恢复文件
 git rm 文件路径(-f) 强制删除 删除
 git restore --staged 文件路径 取消文件暂存状态
+git mv from to 重命名
+git branch 查看分支
+git branch 分支名 创建分支
+git branch -d 分支名 删除分支
+git swith 分支名 切换分支
+git swith -c 分支名  创建并切换分支
