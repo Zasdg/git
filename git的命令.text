@@ -12,6 +12,6 @@ git commit -m "xxx" 将暂存的文件存储到仓库 暂存-->未修改
 修改文件后会变成已修改
 git log 查看日志
 git commit -a -m "" 提交所有已修改的文件(要已跟踪)
-git restore 文件路径 重置文件
+git restore 文件路径 恢复文件
 git rm 文件路径(-f) 强制删除 删除
 git restore -staged 文件路径 取消文件暂存状态
