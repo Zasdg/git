@@ -21,4 +21,5 @@ git branch 分支名 创建分支
 git branch -d 分支名 删除分支
 git switch 分支名 切换分支
 git switch -c 分支名  创建并切换分支
-git merge 分支名 快速合并分支
+git merge 分支名 快速合并分支·
+git rebase 分支名 变基
