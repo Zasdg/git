@@ -1,0 +1,17 @@
+配置git(版本管理)
+git -v
+git config --global user.name "" 配置用户
+git config --global usser.email "" 配置邮箱
+使用git
+未跟踪和已跟踪
+git status 查看当前仓库的状态
+第一步：git init 初始化仓库(会生成一个git文件)
+git add 文件名称 未跟踪--->将文件变成暂存
+git add * 所有
+git commit -m "xxx" 将暂存的文件存储到仓库 暂存-->未修改
+修改文件后会变成已修改
+git log 查看日志
+git commit -a -m "" 提交所有已修改的文件(要已跟踪)
+git restore 文件路径 重置文件
+git rm 文件路径(-f) 强制删除 删除
+git restore -staged 文件路径 取消文件暂存状态
