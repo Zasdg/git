@@ -24,6 +24,7 @@ git switch -c 分支名  创建并切换分支
 git merge 分支名 快速合并分支·
 git rebase 分支名 变基
 远程仓库(remote)
+git push 远程库 本地分支 将本地分支推送到指定的远程库
 git remote add 库名(任意取名) url 将库传到服务器
 git push -u origin main 将代码传到服务器
 git branch -M mian 将分支的名字改成main
@@ -35,3 +36,11 @@ git clone 远程库名 从远程库上克隆
 git fetch 下载远程库的代码但不会合并分支所有要手动合并
 git merge 远程库名/本地分支
 想要推送代码一定要先拉取最新代码
+git  pull 从服务器上拉代码并自动合并
+tag 标签
+git switch  a03d44d6670008d04f4941333895285e0132b0d8 -detach 切换节点
+如果非要回到之前节点则需要到这个节点创建分支
+git switch -c 分支名 节点id 回到当前节点并创建分支
+可以为提交记录写标签
+git tag 标签名 提交id 给指定
+git tag
