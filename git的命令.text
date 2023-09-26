@@ -36,7 +36,7 @@ git clone 远程库名 从远程库上克隆
 git fetch 下载远程库的代码但不会合并分支所有要手动合并
 git merge 远程库名/本地分支
 想要推送代码一定要先拉取最新代码
-git  pull 从服务器上拉代码并自动合并
+git  pull 从服务器git上拉代码并自动合并
 tag 标签
 git switch  a03d44d6670008d04f4941333895285e0132b0d8 -detach 切换节点
 如果非要回到之前节点则需要到这个节点创建分支
@@ -44,3 +44,8 @@ git switch -c 分支名 节点id 回到当前节点并创建分支
 可以为提交记录写标签
 git tag 标签名 提交id 给指定
 git tag
+git tag -d 删除
+git push 远程仓库 --delete 标签名 删除远程库上的标签
+gitignore
+默认情况下git会监视我们的文件如果不希望监视
+创建gitignore将不需要监视的文件放在里面

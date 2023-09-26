@@ -1,0 +1,8 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Zasdg/git.git",
+  "author": "zhanhaibing <2013785971@qq.com>",
+  "license": "MIT"
+}
